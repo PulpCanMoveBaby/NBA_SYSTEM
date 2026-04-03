@@ -26,3 +26,23 @@ that can easily be imported into a spreadsheet or a pandas DataFrame for use in 
   - Lead tracker graphs produced daily to visually assess the flow of games from the previous day
   - CSV files produced daily to evaluate team performance and overall system performance
 
+## Libraries Necessary
+  - nba_api
+  - pandas
+  - matplotlib
+
+## Installation Steps
+  - Open terminal
+  - Create virtual environment and install necessary libraries (recommended) or install them into the base environment
+      - pip install library_name
+  -Activate venv by running (replacing venv with the name of your virtual environment)
+      - source venv/bin/activate
+  - python3 00_main_program.py
+
+## Usage
+  - Program will ask you if you want to add to the results_tracker csv file
+      - This file tracks the performance of each individual parameter in the overall prediction
+      - Make sure you want to do this as it is the only part of the program that is difficult to undo
+          - To undo this, delete the results_tracker.csv, make a copy of the most recent results_tracker_{datetime.now()}.csv file (in the same folder) and rename it results_tracker.csv
+          - If you want to run the program without overwriting this file
+              -For example, you may want to just look at the lead tracker graphs, just enter no and you can update it later in a subsequent run
