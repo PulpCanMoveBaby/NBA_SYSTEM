@@ -1,0 +1,4 @@
+4/3/26 - Continue to run simulations to find optimal values for user defined variables in prediction algorithm.
+    Add the code for-
+        if season_over:
+            get the results from the last day of the season so code still works
