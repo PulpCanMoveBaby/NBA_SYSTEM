@@ -37,7 +37,9 @@ that can easily be imported into a spreadsheet or a pandas DataFrame for use in 
       - pip install library_name
   - Activate venv by running (replacing venv with the name of your virtual environment)
       - source venv/bin/activate
-  - python3 00_main_program.py
+  - Run command
+      - python3 00_main_program.py
+      - python 00_main_program.py
 
 ## Usage
   - Program will ask you if you want to add to the results_tracker csv file
